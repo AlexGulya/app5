@@ -7,12 +7,12 @@ while (true)
     Console.WriteLine("2. Просмотреть список студентов\n");
     Console.WriteLine("3. Удалить студента\n");
     Console.WriteLine("4. Выход");
-    Console.WriteLine("");
+    Console.WriteLine();
     try
     {
-        int a = Convert.ToInt32(Console.ReadLine());
+        int list = Convert.ToInt32(Console.ReadLine());
 
-        switch (a)
+        switch (list)
         {
             case 1:
                 Console.Clear();
